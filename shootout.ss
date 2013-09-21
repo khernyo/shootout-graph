@@ -1,3 +1,7 @@
+;; Based on http://gmarceau.qc.ca/files/shootout.ss by Guillaume Marceau
+;; Originally published at:
+;; http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html
+
 #lang scheme
 (require (planet neil/csv:1:5/csv)
          #;(planet soegaard/sqlite:1:2/sqlite)
