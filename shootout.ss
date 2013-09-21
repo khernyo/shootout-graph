@@ -180,6 +180,7 @@
 (define functionals
   (s:list->equal '("ATS"
                    "Clean"
+		   "Clojure"
                    "Erlang HiPE"
                    "F# Mono"
                    "Haskell GHC"
@@ -189,31 +190,28 @@
                    "Mozart/Oz"
                    "OCaml"
                    "Scala"
-                   "Scheme PLT"
-                   "Smalltalk VisualWorks")))
+                   "Smalltalk VisualWorks"
+		   "Racket")))
 
 (define c-and-friends
-  (s:list->equal '("C GNU gcc"
-                   "C++ GNU g++")))
+  (s:list->equal '("C gcc"
+		   "C++ g++")))
 
 (define imperatives
   (s:list->equal '("Ada 2005 GNAT"
+		   "C CINT"
                    "C# Mono"
+		   "Dart"
                    "Fortran Intel"
-                   "Java 6 -Xint"
-                   "Java 6 -server"
-                   "*Java 6 steady state"
-                   "JavaScript TraceMonkey"
+		   "Go"
+		   "Java 7"
                    "JavaScript V8"
                    "Lisaac"
                    "PHP"
                    "Pascal Free Pascal"
                    "Perl"
-                   "Python"
                    "Python 3"
-                   "Python pypy"
-                   "Ruby"
-                   "Ruby 1.9"
+		   "Ruby 2.0"
                    "Ruby JRuby")))
 
 #|
