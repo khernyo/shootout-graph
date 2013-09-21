@@ -37,7 +37,7 @@
 
 (define (row->exclude row) (list (.. row 'test) (.. row 'lang) (.. row 'id)))
 
-(define data (open-file "C:\\Mes documents\\diddles\\shootout-summary.csv"))
+(define data (open-file "shootout-summary.csv"))
 
 (define (collect data name)
   (for/fold ([result (t:make-equal)])
