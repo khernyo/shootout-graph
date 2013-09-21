@@ -5,7 +5,7 @@
 ;; Cut the data from http://benchmarksgame.alioth.debian.org/u32/summarydata.php
 ;; and save as a csv file named "shootout-summary.csv"
 
-#lang scheme
+#lang racket
 (require (planet neil/csv:1:5/csv)
          #;(planet soegaard/sqlite:1:2/sqlite)
          srfi/1
