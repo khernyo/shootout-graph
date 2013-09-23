@@ -178,7 +178,7 @@
   (define dd-languages (t:map add-text (t:map/value (// d-language <> dd-context width height margin) languages)))
   (square-to-grid (map (// map (// .. dd-languages <>) <>) squared-by-size) margin))
 
-(draw)
+(show-pict (draw))
 
 (define functionals
   (s:list->equal '("ATS"
@@ -318,6 +318,7 @@
                               [else (error (format "missing language: ~a" lang))])
                         square-size square-size 0)))
 
-(inset (square-to-grid (map (// map d-small-color-star <>) squared-by-size) (/ margin 2))
-       margin)
+(show-pict
+ (inset (square-to-grid (map (// map d-small-color-star <>) squared-by-size) (/ margin 2))
+	margin))
 
