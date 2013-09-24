@@ -1,9 +1,6 @@
 ;; Based on http://gmarceau.qc.ca/files/shootout.ss by Guillaume Marceau
 ;; Originally published at:
 ;; http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html
-;;
-;; Cut the data from http://benchmarksgame.alioth.debian.org/u32/summarydata.php
-;; and save as a csv file named "shootout-summary.csv"
 
 #lang racket
 (require (planet neil/csv:1:5/csv)
