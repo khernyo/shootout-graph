@@ -8,8 +8,7 @@ Based on [http://gmarceau.qc.ca/files/shootout.ss](http://gmarceau.qc.ca/files/s
 Originally published at:
 [http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html](http://blog.gmarceau.qc.ca/2009/05/speed-size-and-dependability-of.html)
 
-Usage:
-------
+### Usage:
     $ racket get-data.rkt
     $ racket shootout.rkt
     
